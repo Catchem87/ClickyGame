@@ -2,7 +2,7 @@
 import React, { Component } from "react";
 import Navbar from "./components/Navbar";
 import Jumbotron from "./components/Jumbotron";
-import FriendCard from "./components/FriendCard";
+import FlowerCard from "./components/FlowerCard";
 import Footer from "./components/Footer";
 import flower from "./flower.json";
 import "./App.css";
@@ -22,13 +22,13 @@ class App extends Component {
       // if a card that has already been selected is clicked, the game is reset and cards shuffled
       if (FlowerAlreadyClicked) {
         this.setState({
-          fish: this.state.fish.sort(function(a, b) {
+          flower: this.state.flower.sort(function(a, b) {
             return 0.5 - Math.random();
           }),
           clickedFlower: [],
           score: 0
         });
-        alert("You already picked this flower, you lose. Let's try again!");
+        alert("Sorry, you already picked that flower, you lose. Let's try again!");
         // if a card that has not already been selected is clicked, the score is increased and the cards shuffled
       } else {
         this.setState({
@@ -40,7 +40,7 @@ class App extends Component {
         },
         // if player guesses all flowers correctly, send winning message and reset game
         () => {
-          if (this.state.score === 12) {
+          if (this.state.score === 15) {
             alert("Congratulations! You won!");
             this.setState({
               flower: this.state.flower.sort(function(a, b) {

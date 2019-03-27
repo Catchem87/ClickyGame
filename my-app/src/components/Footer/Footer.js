@@ -2,10 +2,10 @@
 import React from "react";
 import "./Footer.css";
 
-const Footer = () => {
-    <header className="footer">
-        <p>FLOWER POWER GUESSING GAME BY CATCHEM</p>
-    </header>
-};
+const Footer = () => (
+    <footer className="footer">
+        <p>Game by Catchem87</p>
+    </footer>
+);
 
 export default Footer;

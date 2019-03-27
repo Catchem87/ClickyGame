@@ -7,7 +7,7 @@ class Navbar extends Component {
         return (
             <nav className="navbar navbar-default navbar-fixed-top">
                 <ul>
-                    <li className="itemLeft">How Good Is Your Memory?</li>
+                    <li className="itemLeft">Are you ready to test your memory?</li>
                     <li className="itemCenter"></li>
                     <li className="itemRight">Score: {this.props.score}</li>
                 </ul>

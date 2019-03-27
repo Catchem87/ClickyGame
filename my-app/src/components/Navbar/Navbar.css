@@ -2,21 +2,28 @@
     display: inline-block;
     text-align: center;
   }
+
+ul {
+  margin: 0;
+}
   
   .itemLeft {
-    width: 15%;
+    width: 30%;
+    font-family: 'Kalam', cursive;
   }
   
   .itemCenter {
-      width: 70%;
+      width: 55%;
   }
   
   .itemRight {
     width: 15%;
+    font-family: 'Baloo Chettan', cursive;
+    font-size: 25pt;
   }
   
   .navbar {
-    background: #490549;
+    background: rgb(156, 68, 156);
     box-shadow: 0 3px 6px #999, 0 3px 6px #999;
   }
   

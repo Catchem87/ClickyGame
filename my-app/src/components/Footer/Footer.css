@@ -5,8 +5,10 @@
 }
 
 .footer p{
-	color: white;
+	color:rgb(229, 180, 241);
 	text-align: center;
 	padding: 10px 0;
-	font-size: 15px;
+	font-size: 20px;
+	margin: 15px 0 0 0;
+	font-family: 'Dancing Script', cursive;
 }
